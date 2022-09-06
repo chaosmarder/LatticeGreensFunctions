@@ -1,0 +1,49 @@
+[project]
+name = "LatticeGreensFunctions_mpmath"
+version = "0.1.0"
+description = "Compute lattice Greens functions for a square lattice using the package mpmath"
+authors = [
+    { name = "Michael Marder", email = "marder@chaos.utexas.edu"}
+]
+license =  {file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Topic :: Scientific/Engineering",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Development Status :: 1 - Planning",
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.10"
+dependencies = [
+    "mpmath >=1.0",
+    "numpy >=1.22"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit >=2.19",
+    "jupyter >=1.0.0",
+]
+docs = [
+    "myst-nb >=0.13.1",
+    "sphinx-autoapi >=1.8.4",
+    "sphinx-rtd-theme >=1.0.0"
+]
+test = [
+    "pytest >=6.2",
+    "pytest-cov >=2.12.1",
+    "pytest-xdist >=2.4",
+]
+
+
+[build-system]
+requires = ["hatchling>=0.7"]
+build-backend = "hatchling.build"
+
+[tool.isort]
+profile = "black"
