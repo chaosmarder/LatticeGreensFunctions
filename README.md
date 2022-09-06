@@ -26,34 +26,22 @@ LatticeGreensFunctions_arb/src/LatticeGreensFunctions_arb, modify the Makefile t
 dynamic libraries for arb, flint, and Python, and the locations of
 header files (include directories) for arb, python, and numpy.
 
-Once this is done you will be able to type 'make' in the directory and 
+Once this is done you will be able to type 'make' in the directory and create the library _LatticeGreensFunctions.so. 
+Then return to the directory LatticeGreensFunctions_arb and install for Python with 
+
+```bash
+$ pip3 install .
+``
 
 ## Usage
 
-`bluebonnet` has a collection of tools for performing reservoir simulation in
-tight oil and shale gas reservoirs. The main tools are:
+`LatticeGreensFunction` has a Jupyter notebook in the docs directory. It contains an example of how to run each type of code
+and generate a matrix of Green's functions.
 
-1. `fluids` for modeling PVT and viscosity of oil, water, and gas;
-2. `flow` for building physics-based production curves; and
-3. `forecast` for fitting and forecasting unconventional production.
-
-Examples can be found in
-[the documentation](https://bluebonnet.readthedocs.io/en/latest/flow.html).
-
-## Contributing
-
-Interested in contributing? Check out the
-[contributing guidelines](https://bluebonnet.readthedocs.io/en/latest/contributing.html)
-to get started. Please note that this project is released with a Code of
-Conduct. By contributing to this project, you agree to abide by its terms.
-
-### Contributor Hall of Fame
-
-Michael Marder
 
 ## License
 
-`LatticeGreensFunctions` was created by Frank Male. It is licensed under the terms of the
+`LatticeGreensFunctions` was created by Michael Marder. It is licensed under the terms of the
 BSD 3-Clause license.
 
 ## Credits
