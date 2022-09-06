@@ -29,7 +29,7 @@ Then return to the directory LatticeGreensFunctions_arb and install for Python w
 
 ```bash
 $ pip3 install .
-``
+```
 
 ## Usage
 
@@ -54,5 +54,8 @@ at Austin, with Michael Marder as PI .
 ## Bibliography
 
 Papers developing or using this approach include:
+Marder, M. and Eftekhari, Behzad and Patzek, Tadeusz W., Solvable model of gas production decline from hydrofractured networks, Phys. Rev. E (2021) 
+104 065001/1-21 <a href= "https://link.aps.org/doi/10.1103/PhysRevE.104.065001" /a>
+
 
 
