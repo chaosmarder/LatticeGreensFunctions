@@ -15,7 +15,7 @@ This is a fast version using the package 'arb' whose installation
 is not fully automated. You will need to download (perhaps compile)
 working versions of flint and arb. In the directory
 LatticeGreensFunctions_arb/src/LatticeGreensFunctions_arb, modify the
-Makefile so that PYTHON_LIB ,  ARB_LIB, PYTHON_INC, ARB_INC,
+`Makefile` so that PYTHON_LIB ,  ARB_LIB, PYTHON_INC, ARB_INC,
 FLINT_INC, and NUMPY_INC point to the
 dynamic libraries for arb, flint, and Python, and the locations of
 header files (include directories) for arb, python, and numpy.
@@ -27,7 +27,7 @@ in the directory and create the library _LatticeGreensFunctions.so.
 
 
 Next go into the directory
-LatticeGreensFunctions_arb/src/LatticeGreensFunctions_arb/AllocationFunctions. Point
+LatticeGreensFunctions_arb/src/LatticeGreensFunctions_arb/AllocationFunctions. Again modify `Makefile` to point
 PYTHON_LIB ,  PYTHON_INC, and NUMPY_INC to the directories for Python
 library, Python include files and numpy include files.  Type
  ```bash
