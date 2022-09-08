@@ -44,9 +44,9 @@ BSD 3-Clause license.
 
 ## Credits
 
-This work was funded in part by an National Science Foundation grant to the University of Texas
+This work was funded in part by National Science Foundation grant DMR 1810196 to the University of Texas
 at Austin, with Michael Marder as PI . 
-`bluebonnet` was created with
+`LatticeGreensFunctions` was created with
 [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the
 `py-pkgs-cookiecutter`
 [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
@@ -55,7 +55,7 @@ at Austin, with Michael Marder as PI .
 
 Papers developing or using this approach include:
 Marder, M. and Eftekhari, Behzad and Patzek, Tadeusz W., Solvable model of gas production decline from hydrofractured networks, Phys. Rev. E (2021) 
-104 065001/1-21 <a href= "https://link.aps.org/doi/10.1103/PhysRevE.104.065001" /a>
+104 065001/1-21 https://link.aps.org/doi/10.1103/PhysRevE.104.065001
 
 
 
