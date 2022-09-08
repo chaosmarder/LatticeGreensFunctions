@@ -1,6 +1,6 @@
 # LatticeGreensFunctions
 
-Computes lattice Green's functions for square lattices
+Computes lattice Green's functions for in two dimensions for square lattices
 
 <p align="center">
 <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
@@ -54,8 +54,18 @@ at Austin, with Michael Marder as PI .
 ## Bibliography
 
 Papers developing or using this approach include:
-Marder, M. and Eftekhari, Behzad and Patzek, Tadeusz W., Solvable model of gas production decline from hydrofractured networks, Phys. Rev. E (2021) 
-104 065001/1-21 https://link.aps.org/doi/10.1103/PhysRevE.104.065001
+
+Marder, M. and Eftekhari, Behzad and Patzek, Tadeusz W., Solvable model of gas production decline from hydrofractured networks, Phys. Rev. E 104 
+065001/1-21 (2021)  https://link.aps.org/doi/10.1103/PhysRevE.104.065001
+
+Marder, M. and Eftekhari, Behzad and Patzek, Tadeusz W., Solvable Model for Dynamic Mass Transport in Disordered Geophysical Media, 
+Phys. Rev. Lett (2018) 120 138302/1-4 https://link.aps.org/doi/10.1103/PhysRevLett.120.138302
+
+These Green functions are discussed in section 5.3.2, p. 81, of Economou, E. N., Green's Functions in Quantum Physics, 2nd Edition (Springer, 1983)
+
+The recurrence relations first appear in T. Morita, J. Math. Phys. 12, 1744 (1971); https://doi.org/10.1063/1.1665800
+
+
 
 
 
