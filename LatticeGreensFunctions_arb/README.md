@@ -32,7 +32,8 @@ PYTHON_LIB ,  PYTHON_INC, and NUMPY_INC to the directories for Python
 library, Python include files and numpy include files.  Type
  ```bash
 $ make
-``` in the directory and create the library _AllocationFunctionss.so. 
+``` 
+in the directory and create the library _AllocationFunctionss.so. 
 
 Then go back up to the directory LatticeGreensFunctions_arb and install for Python with 
 
