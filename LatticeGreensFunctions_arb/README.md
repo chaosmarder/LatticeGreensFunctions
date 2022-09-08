@@ -19,9 +19,11 @@ Makefile so that PYTHON_LIB ,  ARB_LIB, PYTHON_INC, ARB_INC,
 FLINT_INC, and NUMPY_INC point to the
 dynamic libraries for arb, flint, and Python, and the locations of
 header files (include directories) for arb, python, and numpy.
-Once this is done you will be able to type  ```bash
+Once this is done you will be able to type
+```bash
 $ make
-``` in the directory and create the library _LatticeGreensFunctions.so. 
+``` 
+in the directory and create the library _LatticeGreensFunctions.so. 
 
 
 Next go into the directory
