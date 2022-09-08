@@ -1,21 +1,12 @@
-CFLAGS =   -fopenmp
-INC =-I/usr/include/python2.7 -I/usr/lib/python2.7/site-packages/numpy/core/include/numpy -I/usr/local/bin/lib/python2.7/site-packages/numpy/core/include/numpy
-INC = -I/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include/numpy -I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/
-LIBS =  -lm -lpython -dynamiclib
-GCC=/usr/local/Cellar/gcc/8.3.0_2/bin/gcc-8
-
 CFLAGS =   -fopenmp -O6
-INC = -I /usr/local/include -I /usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m -I /usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/numpy/core/include/numpy
-LIBS =  -lm  /usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/Python -L /usr/local/lib  -larb
-GCC=/usr/local/Cellar/gcc/8.3.0_2/bin/gcc-8
 
-LIBS =  -lm /usr/local/Cellar/python\@3.9/3.9.1_6/Frameworks/Python.framework/Versions/3.9/Python  -L /usr/local/lib  -larb
+PYTHON_LIB = /usr/local/Cellar/python\@3.9/3.9.7/Frameworks/Python.framework/Versions/3.9/lib
+PYTHON_INC = /usr/local/Cellar/python\@3.9/3.9.7/Frameworks/Python.framework/Versions/Current/include/python3.9/
+NUMPY_INC = /usr/local/Cellar/python\@3.9/3.9.7/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/numpy/core/include/numpy
 
-INC = -I /usr/local/Cellar/python\@3.9/3.9.1_6/Frameworks/Python.framework/Versions/Current/include/python3.9/ -I /usr/local/Cellar/python\@3.9/3.9.1_6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/numpy/core/include/numpy
+LIBS =  -lm  -L $(PYTHON_LIB)  -lpython3.9
+INC = -I $(PYTHON_INC) -I $(NUMPY_INC) 
 
-LIBS =  -lm /usr/local/Cellar/python\@3.9/3.9.7/Frameworks/Python.framework/Versions/3.9/Python  -L /usr/local/Cellar/arb/2.21.0/lib/    -larb
-
-INC = -I /usr/local/Cellar/python\@3.9/3.9.7/Frameworks/Python.framework/Versions/Current/include/python3.9/ -I /usr/local/Cellar/python\@3.9/3.9.7/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/numpy/core/include/numpy -I /usr/local/include /usr/local/Cellar/arb/2.21.0/include/
 GCC=/usr/local/Cellar/gcc/11.2.0/bin/gcc-11
 
 

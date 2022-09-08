@@ -1,0 +1,6 @@
+
+*.o
+LatticeGreensFunctions_arb/src/LatticeGreensFunctions_arb/AllocationFunctions/_AllocationFunctions.so
+*.o
+*.py~
+*.so

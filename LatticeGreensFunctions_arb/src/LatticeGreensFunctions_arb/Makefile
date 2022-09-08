@@ -1,9 +1,10 @@
 CFLAGS =   -fopenmp -O6
 
 PYTHON_LIB = /usr/local/Cellar/python\@3.9/3.9.7/Frameworks/Python.framework/Versions/3.9/lib
-ARB_LIB = /usr/local/Cellar/arb/2.21.0/lib/ 
 PYTHON_INC = /usr/local/Cellar/python\@3.9/3.9.7/Frameworks/Python.framework/Versions/Current/include/python3.9/
 NUMPY_INC = /usr/local/Cellar/python\@3.9/3.9.7/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/numpy/core/include/numpy
+
+ARB_LIB = /usr/local/Cellar/arb/2.21.0/lib/ 
 ARB_INC = /usr/local/Cellar/arb/2.21.0/include/
 FLINT_INC = /usr/local/include
 
