@@ -1,6 +1,6 @@
 # LatticeGreensFunctions
 
-Computes lattice Green's functions for in two dimensions for square lattices. The method is a set of recurrence relations implemented in high-precision arithmetic. The square lattice results were needed for a particular research project, which is why this was developed, but similar recursion relations are available for three-dimensional lattices and the same method should work.
+Computes lattice Green's functions  in two dimensions for square lattices. The method is a set of recurrence relations implemented in high-precision arithmetic. The square lattice results were needed for a particular research project, which is why this was developed, but similar recursion relations are available for three-dimensional lattices and the same method should work.
 
 <p align="center">
 <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
