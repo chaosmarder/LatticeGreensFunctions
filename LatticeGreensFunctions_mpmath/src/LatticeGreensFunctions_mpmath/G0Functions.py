@@ -1,3 +1,4 @@
+from numpy import zeros,sqrt
 from scipy import *
 from scipy.special import ellipk,ellipe
 from scipy.optimize import root
